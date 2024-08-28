@@ -1,0 +1,15 @@
+.env
+/env
+# .gitignore
+
+# Ignore system files
+__pycache__/
+*.pyc
+.env
+
+# Ignore VSCode settings (optional)
+.vscode/
+
+# Ignore artifacts (unless explicitly tracked)
+!artifacts/movie_list.pkl
+!artifacts/similarity.pkl
